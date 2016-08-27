@@ -1,5 +1,5 @@
 title:
-  archive: 归档
+  archive: 随笔
   category: 分类
   tag: 标签
 
@@ -7,12 +7,12 @@ author: 博主
 
 menu:
   home: 首页
-  archives: 归档
+  archives: 随笔
   categories: 分类
   tags: 标签
-  about: 关于
+  about: 关于我
   search: 搜索
-  commonweal: 公益404
+  commonweal: 公益
 
 
 sidebar:
