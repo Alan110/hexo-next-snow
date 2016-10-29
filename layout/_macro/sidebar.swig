@@ -1,27 +1,9 @@
 {% macro render(is_post) %}
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
 
   <aside id="sidebar" class="sidebar">
     <div class="sidebar-inner">
 
       {% set display_toc = theme.toc.enable %}
-
-      {% if display_toc %}
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            {{ __('sidebar.toc') }}
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            {{ __('sidebar.overview') }}
-          </li>
-        </ul>
-      {% endif %}
 
       <section class="site-overview sidebar-panel {% if not display_toc %} sidebar-panel-active {% endif %}">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -120,7 +102,7 @@
               {% set toc = toc(page.content, {"class": "nav", list_number: page.toc_number}) %}
             {% endif %}
             {% if toc.length <= 1 %}
-              <p class="post-toc-empty">{{ __('post.toc_empty') }}</p>
+              <p class="post-toc-empty"></p>
             {% else %}
               <div class="post-toc-content">{{ toc }}</div>
             {% endif %}

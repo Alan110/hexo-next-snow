@@ -43,7 +43,7 @@ counter:
   categories:
     zero: No categories
     one: 1 category in total
-    other: "%d categories in total"
+    other: "共 %d 个分类"
 
   archive_posts:
     zero: No posts.

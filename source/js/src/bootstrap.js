@@ -4,11 +4,11 @@ $(document).ready(function () {
 
   $(document).trigger('bootstrap:before');
 
-  NexT.utils.isMobile() && window.FastClick.attach(document.body);
+//  NexT.utils.isMobile() && window.FastClick.attach(document.body);
 
-  NexT.utils.lazyLoadPostsImages();
+ // NexT.utils.lazyLoadPostsImages();
 
-  NexT.utils.registerBackToTop();
+  //NexT.utils.registerBackToTop();
 
   $('.site-nav-toggle button').on('click', function () {
     var $siteNav = $('.site-nav');
@@ -29,16 +29,16 @@ $(document).ready(function () {
 
 
   // Define Motion Sequence.
-  NexT.motion.integrator
-    .add(NexT.motion.middleWares.logo)
-    .add(NexT.motion.middleWares.menu)
-    .add(NexT.motion.middleWares.postList)
-    .add(NexT.motion.middleWares.sidebar);
-
-  $(document).trigger('motion:before');
+//  NexT.motion.integrator
+//    .add(NexT.motion.middleWares.logo)
+//    .add(NexT.motion.middleWares.menu)
+//    .add(NexT.motion.middleWares.postList)
+//    .add(NexT.motion.middleWares.sidebar);
+//
+//  $(document).trigger('motion:before');
 
   // Bootstrap Motion.
-  CONFIG.motion && NexT.motion.integrator.bootstrap();
+//  CONFIG.motion && NexT.motion.integrator.bootstrap();
 
-  $(document).trigger('bootstrap:after');
+//  $(document).trigger('bootstrap:after');
 });

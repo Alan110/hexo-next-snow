@@ -9,7 +9,7 @@
 </div>
 
 <div class="powered-by">
-  {{ __('footer.powered', '<a class="theme-link" href="http://hexo.io">Hexo</a>') }}
+    Thanks for : <a class="theme-link" href="http://www.jianshu.com/users/e2cbcb1c2a55/latest_articles">刘启丽</a>
 </div>
 
 <div class="theme-info">
