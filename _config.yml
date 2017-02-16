@@ -390,7 +390,7 @@ css: css
 js: js
 images: images
 
-reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+#reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
 wechatpay: http://o99eh3ii0.bkt.clouddn.com//16-8-14/79898572.jpg
 alipay: http://o99eh3ii0.bkt.clouddn.com//16-8-14/2110271.jpg
 
